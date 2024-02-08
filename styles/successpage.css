@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.success {
+    display: none;
+}
+
+.success-on {
+    display: flex;
+    flex-direction: column;
+}
+
+.success {
+    width: 500px;
+    height: 520px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.success img {
+    width: 100px;
+}
+
+.success h1 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.success p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.success p .email {
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+}
+
+.success button {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.success button:active {
+    background-image: linear-gradient(to right, hsl(4, 100%, 67%), hsl(4, 100%, 67%), hsl(29, 94%, 49%));
+    box-shadow: 0px 10px 20px hsl(4, 100%, 67%);
+}
+
+@media screen and (max-width: 720px) {
+    .success {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .success div {
+        margin-top: 100px;
+    }
+
+    .success button {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .success button {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .success {
+        padding: 30px;
+    }
+
+    .success h1 {
+        font-size: 40px;
+    }
+
+    .success button {
+        margin-top: 80px;
+        font-size: 18px;
+    }
+}

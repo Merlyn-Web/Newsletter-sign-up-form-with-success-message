@@ -1,0 +1,9 @@
+.error {
+    border: 2px solid hsl(0, 82%, 53%);
+    background-color: hsla(0, 83%, 69%, 0.63);
+}
+
+#texterror {
+    color: hsl(0, 94%, 31%);
+    font-size: 10px;
+}
